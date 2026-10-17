@@ -1,0 +1,15 @@
+# Challenge data and prepared copies
+dataset/train/*.tsv
+dataset/test/*.tsv
+dataset/cleaned/
+
+# Generated outputs and large submission archive
+output/*.tsv
+submission_package/output/*.tsv
+*.zip
+
+# Temporary and local files
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]

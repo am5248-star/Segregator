@@ -1,0 +1,81 @@
+{
+  "validation_source1_rows": 441363,
+  "training_queries_sampled": 20000,
+  "fit_queries": 15941,
+  "calibration_queries": 4059,
+  "training_pairs": {
+    "rows": 498357,
+    "positive": 50815,
+    "negative": 447542
+  },
+  "feature_names": [
+    "exact_name",
+    "exact_address",
+    "core_name",
+    "unordered_name",
+    "canonical_address",
+    "rare_name_token",
+    "rare_address_token",
+    "expanded_name_token",
+    "expanded_address_token",
+    "char_trigram",
+    "name_token_pair",
+    "address_token_pair",
+    "target_is_s3",
+    "log1p_candidate_count_div10"
+  ],
+  "threshold_selection": "macro F0.5 on deterministic training-only calibration queries",
+  "probability_threshold": 0.1912855213880552,
+  "calibration_macro_f05": 0.4786238237921219,
+  "validation": {
+    "candidate_pairs": 75649390,
+    "average_candidates_per_source1": 171.39948296526896,
+    "candidate_recall": 0.9213548458045968,
+    "candidate_positive_entity_coverage": 0.9887596769007041,
+    "candidate_reduction_ratio": 0.9999833918754083,
+    "macro_f05": 0.46887139428463914,
+    "no_match_macro_f05": 0.055847454362962005,
+    "micro_precision": 0.22397364234806053,
+    "micro_recall": 0.47030972617158656,
+    "micro_f05": 0.2501813476049163,
+    "by_target_source": {
+      "S2": {
+        "macro_f05": 0.4829520299388159,
+        "candidate_recall": 0.9319594692491954,
+        "candidate_positive_entity_coverage": 0.9602343662441715,
+        "micro_precision": 0.181973911243548,
+        "micro_recall": 0.6345001563978925
+      },
+      "S3": {
+        "macro_f05": 0.42310642820678857,
+        "candidate_recall": 0.911431109353993,
+        "candidate_positive_entity_coverage": 0.9551090771347732,
+        "micro_precision": 0.3948528505563333,
+        "micro_recall": 0.316661407983821
+      }
+    }
+  },
+  "model": {
+    "type": "L2-regularized logistic regression",
+    "optimizer": "batch gradient descent",
+    "iterations": 80,
+    "negative_sampling": "up to 30 deterministic hard negatives per fit query; all generated positives retained",
+    "weight_intercept_and_features": [
+      -1.8172039985656738,
+      0.22501930594444275,
+      0.1672748178243637,
+      0.34353911876678467,
+      0.37857064604759216,
+      0.22885087132453918,
+      0.051765359938144684,
+      0.10376980900764465,
+      0.04873967915773392,
+      0.039236247539520264,
+      0.0016162364045158029,
+      0.23750565946102142,
+      0.522347092628479,
+      -0.38221219182014465,
+      -0.7555886507034302
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "purpose": "fixed Source 1 holdout for validation; training is the complement",
+  "seed_namespace": "ML-CHALLENGE-2026-PHASE2-SEED-1",
+  "split_method": "SHA-256 rank within true match-count strata",
+  "requested_validation_fraction": 0.2,
+  "ground_truth_rows": 2206821,
+  "train_rows": 1765458,
+  "validation_rows": 441363,
+  "train_match_count_distribution": {
+    "0": 98598,
+    "1": 95326,
+    "2": 300170,
+    "3": 424673,
+    "4": 387292,
+    "5": 257566,
+    "6": 131894,
+    "7": 51174,
+    "8": 14944,
+    "9": 3364,
+    "10": 427,
+    "11": 30
+  },
+  "validation_match_count_distribution": {
+    "0": 24649,
+    "1": 23831,
+    "2": 75042,
+    "3": 106168,
+    "4": 96823,
+    "5": 64391,
+    "6": 32974,
+    "7": 12794,
+    "8": 3736,
+    "9": 841,
+    "10": 107,
+    "11": 7
+  },
+  "validation_ids_file": "dataset\\splits\\validation_source1_ids.txt"
+}

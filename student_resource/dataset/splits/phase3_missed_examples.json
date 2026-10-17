@@ -1,0 +1,4806 @@
+{
+  "sample_size": 200,
+  "sampling": "deterministic hash-ranked sample of validation entities missed by union_token_pairs",
+  "examples": [
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-631267959",
+      "target_entity_id": "S2-25089435",
+      "source1": {
+        "business_name": "Shivam Services Private Limited",
+        "business_address": "Rh -14, Holand Park, Mhada Colony, Ambarnath, Thane, Kalyan, Thane, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "शिवम सर्विसेज प्राइवेट लिमिटेड",
+        "business_address": "RH -14, KALYAN, THANE, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-568046946",
+      "target_entity_id": "S2-16769142",
+      "source1": {
+        "business_name": "Al Consultancy Private Limited",
+        "business_address": "57/12 Rajaram Patil Nagar, Kharadi Pune City (Cb), Pune, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Private Al Consultancy Limited",
+        "business_address": "RAJARAM PATIL NAGAR, WAGHOLI, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-898356415",
+      "target_entity_id": "S2-865270581",
+      "source1": {
+        "business_name": "Crowe and Seiler",
+        "business_address": "935 18th Street, Newton, IA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "CROWESEILER.COM",
+        "business_address": "935 18ND SAINT, NWETON, IA",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-162012908",
+      "target_entity_id": "S2-70149564",
+      "source1": {
+        "business_name": "Gold Food Private Limited",
+        "business_address": "Unit No. 1B, No. 9, Harris Road, Benson Town, Bangalore, Karnataka",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ಗೋಲ್ಡ್ ಫುಡ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+        "business_address": "UNIT NO. 1B, BANGALORE, BENSON TOWN, Karnataka",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-473962388",
+      "target_entity_id": "S2-312662047",
+      "source1": {
+        "business_name": "EA Aqua Private Limited",
+        "business_address": "Rz-18-B, Puran Nagar, Palam Colony, New Delhi, South West Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "EA Agnfu  Private Limited",
+        "business_address": "RZ-18-B, PURAN NAGAR, PALAM COLONY, NEW DELHI, दिल्ली",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-184194529",
+      "target_entity_id": "S2-62671884",
+      "source1": {
+        "business_name": "Lakshmi Impex Private Limited",
+        "business_address": "5/2 Banyan Road, Shipra Sun City, Indrapuram, Ghaziabad, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Lakshmi इम्पेक्स प्राइवेट लिमिटेड",
+        "business_address": "H.NO 5/2 BANYAN ROAD, SHIPRA SUN CITY, INDRAPURAM, GHAZIABAD, Uttar Pradesh",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-261181245",
+      "target_entity_id": "S2-644433307",
+      "source1": {
+        "business_name": "Krishna Engineering Private Limited",
+        "business_address": "101, Rose Block, Sukriti, Grandeur, Pragath Nagar, Tirumalagiri, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "కృష్ణా ఇంజనీరింగ్ ప్రైవేట్ లిమిటెడ్",
+        "business_address": "##101, TIRUMALAGIRI, Telangana",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-541734437",
+      "target_entity_id": "S2-625842111",
+      "source1": {
+        "business_name": "Pediatric Partners",
+        "business_address": "2331 Dave Lyle Boulevard, Rock Hill, SC",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Pediatric Partners",
+        "business_address": "DAVE LYLE BLVD, ROCK HILL, SC",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": true,
+        "canonical_name": true,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-436796634",
+      "target_entity_id": "S2-145016822",
+      "source1": {
+        "business_name": "Division of Health",
+        "business_address": "3917 W Bluffs Road, Springfield, IL",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "DIVISION  OF HEH",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-830131571",
+      "target_entity_id": "S2-577004590",
+      "source1": {
+        "business_name": "Roy Quest Inc",
+        "business_address": "210 Stockyard Street, Unit 123, Nashville, TN",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "royquest.com",
+        "business_address": "210 STOCYARD ST, NASHVILLE CDDP, TN",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-695695884",
+      "target_entity_id": "S2-855047120",
+      "source1": {
+        "business_name": "King Tours (India) Private Limited",
+        "business_address": "603 Etc, F.P.No.45, 6Th Road Santacruz East, Cts-244 A, Mumbai, Mumbai City, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "kingindiatours.com",
+        "business_address": "6-03 ETC, F.P.NO.45, 6TH ROAD SANTACRUZ EAST, CTS-244 A, MUMBAI, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-133541319",
+      "target_entity_id": "S2-762668153",
+      "source1": {
+        "business_name": "Supreme Balaji Tech Private Limited",
+        "business_address": "Flat No. F1, F2 & F3 In Xvi/681 (F/F), Main Faiz Road, Karol Bagh, Delhi, Central Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "सुप्रीम बालाजी टेक प्राइवेट लिमिटेड",
+        "business_address": "FLT NO. F1, F2 & F3 IN XVI/681 (F/F), MAIN FAIZ ROAD, KAROL BAGH, DELHI, CENTRAL DELHI, Delhi",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-219204966",
+      "target_entity_id": "S2-837701084",
+      "source1": {
+        "business_name": "First Services Private Limited",
+        "business_address": "Basant Bihar Colony, Behind Central Jail Izzatnagar, Bareilly, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "फर्स्ट सर्विसेज प्राइवेट लिमिटेड",
+        "business_address": "BASANT BIHAR COLONY, BARIELLY, BAREILLY, Uttar Pradesh",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-389461801",
+      "target_entity_id": "S2-1697498",
+      "source1": {
+        "business_name": "Digital Media Private Limited",
+        "business_address": "H.No.1-2-376/1/A/403, Star Homes Apts, Street No.6, Gagan Mahal, Domalguda, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "డిజిటల్ మీడియా ప్రైవేట్ లిమిటెడ్",
+        "business_address": "#1-2-376/1/A/403, STAR HOMES APTS, STREET NO.6, GAGAN MAHAL, DOMALGUDA, HYDERABAD CITY REGION, HYDERABAD, Telangana",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-525398728",
+      "target_entity_id": "S2-255571268",
+      "source1": {
+        "business_name": "Bombay Pioneer Technologies Private Limited",
+        "business_address": "Flat No 107, Building B, Laxmi Green County, Sr. No 21/1/2/4/7, Khadak Wasti, Kondhawe Dhawade, Nda Road, Haveli, Pune, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "बॉम्बे पायोनियर टेक्नोलॉजीज प्राइवेट लिमिटेड",
+        "business_address": "DOOR NO 107, NULL, HAVELI, PUNE, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-288201194",
+      "target_entity_id": "S2-483786116",
+      "source1": {
+        "business_name": "Great Developers Private Limited",
+        "business_address": "Sn 165 A, Jaiprakash Soc, Malwadi, Hadapsar, Pune City, Pune, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ग्रेट डेवलपर्स प्राइवेट लिमिटेड",
+        "business_address": "#997 SN 165 A, PUNE CITY, PUNE, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-769780039",
+      "target_entity_id": "S2-506046639",
+      "source1": {
+        "business_name": "Cardiology Care Associates",
+        "business_address": "2569 Glendale Avenue, Petersburg City, VA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Cardiology Care Associates Inc",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": true,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-52565704",
+      "target_entity_id": "S2-649183502",
+      "source1": {
+        "business_name": "Aromatic Group",
+        "business_address": "A Wing, Bonzer, Avenue Near Hatti Bunglow, Maharashtra, F N 204, Ambarnath, Thane",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Mr Armnaic Group",
+        "business_address": "F N 204, N/A, AMBARNATH, THANE, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-3995992",
+      "target_entity_id": "S2-195446848",
+      "source1": {
+        "business_name": "Little Pub LLC",
+        "business_address": "7401 John Marsh Road, Liberty, NC",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Little Little Pub Llc",
+        "business_address": "7115 JOHN MARSH ROAD, LIBERY, NC",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-283173857",
+      "target_entity_id": "S2-675239485",
+      "source1": {
+        "business_name": "Urgent Care Associates LLC",
+        "business_address": "65 Gerante Way, Hot Springs Village, AR",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Urgent (Cáre)",
+        "business_address": "65 GEBANTE WAY, HOT SPRINGS VILLAGE, AR",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-600275240",
+      "target_entity_id": "S2-829070175",
+      "source1": {
+        "business_name": "Dotson's Deli LLC",
+        "business_address": "Unit APT 431, Wichita, 3600 Kellogg Street, KS",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Dotson's LLC Center",
+        "business_address": "WICHITA, KS, KELLOGG STREET",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-622104733",
+      "target_entity_id": "S2-758154381",
+      "source1": {
+        "business_name": "Nath Seva Samiti",
+        "business_address": "Door No.1-44-3 (2), Flatno:A2, Sea Sands Apartment Sector-1, M.V.P.Colony, Visakhapatnam, Vishakhapatnam, Andhra Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Nath 5eva",
+        "business_address": "#-44-3 (2), FLATNO:A2, SEA SANDS APARTMENT SECTOR-1, M.V.P.COLONY, VISAKHAPATNAM, ఆంధ్రప్రదేశ్",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-691388474",
+      "target_entity_id": "S2-421577626",
+      "source1": {
+        "business_name": "Graham Academy L.L.C.",
+        "business_address": "116 Quality Lane, Snyder Township, PA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "GRAHAM-L.L.C. SERVICES",
+        "business_address": "116 QUALITY LANE, <NULL>, TYRONE, PA",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-529697491",
+      "target_entity_id": "S2-246200551",
+      "source1": {
+        "business_name": "Hotel Properties Private Limited",
+        "business_address": "C-23, Ground Floor, Gulmohar Park, New Delhi, South Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "होटल प्रॉपर्टीज प्राइवेट लिमिटेड",
+        "business_address": "DOOR NO 00125 C-23, SOUTH DELHI, NEW DELHI, दिल्ली",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-921796947",
+      "target_entity_id": "S2-835387368",
+      "source1": {
+        "business_name": "GT Blue LLC",
+        "business_address": "117 Meadowbrook Drive, King, NC",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "GT BLUE L.L.C.",
+        "business_address": "116 MEADOWBROOK DR, KING, NC",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-582123886",
+      "target_entity_id": "S2-365709597",
+      "source1": {
+        "business_name": "Little Pilates",
+        "business_address": "19 Weaver Drive, Ottumwa, IA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Little Phdtlhs",
+        "business_address": "19 WEAVER DRIVE, CENTER TOWNSHIP, IA",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-917860969",
+      "target_entity_id": "S2-54255177",
+      "source1": {
+        "business_name": "Jangra Up Limited",
+        "business_address": "Surat, Plot No 16, Ground Floor, Bhumi Darshan Housing Sociey, Dabholi, Gujarat",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Jegra Úp Limited",
+        "business_address": "H.NO #16, SURAT, Gujarat",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-279416491",
+      "target_entity_id": "S2-359521786",
+      "source1": {
+        "business_name": "Balaji Solutions",
+        "business_address": "No. 50, Bangalore, Deen Enclave, 2Nd Floor, 7Th Cross, Jyothi Nagar, Hal Post Office, Bengaluru, Karnataka",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ಬಾಲಾಜಿ ಸೊಲ್ಯೂಷನ್ಸ್",
+        "business_address": "NO. 50, DEEN ENCLAVE, 2ND FLOOR, 7TH CROSS, JYOTHI NAGAR, HAL POST OFFICE, BENGALURU, BANGALORE, Karnataka",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-829591625",
+      "target_entity_id": "S2-22515342",
+      "source1": {
+        "business_name": "Eastern Industries Private Limited",
+        "business_address": "03, Vijay Towers, Opp Telephone Exchange Canada Corner, Nashik, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ईस्टर्न इंडस्ट्रीज प्राइवेट लिमिटेड",
+        "business_address": "Maharashtra, VIJAY TOWERS, OPP TELEPHONE EXCHANGE CANADA CORNER, NASHIK, 03",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-242832832",
+      "target_entity_id": "S2-74629525",
+      "source1": {
+        "business_name": "Surya Investment Private Limited",
+        "business_address": "H.No.1-4-880/1/A/1, 1St Floor, Near Shatabdi Nilayam Bakaram, Gandhi Nagar, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "సూర్య ఇన్వెస్ట్‌మెంట్ ప్రైవేట్ లిమిటెడ్",
+        "business_address": "H.NO.1-4-880/1/A/1, HYDERABAD URBAN, HYDERABAD, Telangana",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-278640539",
+      "target_entity_id": "S2-348531421",
+      "source1": {
+        "business_name": "Back Alley Bakery Inc.",
+        "business_address": "9608 Willow Lane, Mokena, IL",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Back Alley Bakery Inc. Center",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-679722657",
+      "target_entity_id": "S2-457167378",
+      "source1": {
+        "business_name": "Al Construction Private Limited",
+        "business_address": "Office No. S-8, Sf St. Soldier Tower, Community Centre, Pvr Complex, Vikaspuri, New Delhi, West Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "अल कंस्ट्रक्शन प्राइवेट लिमिटेड",
+        "business_address": "OFFICE NO. S-08, WEST DELHI, Delhi",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-944514830",
+      "target_entity_id": "S2-436650325",
+      "source1": {
+        "business_name": "SU Charter PC",
+        "business_address": "693 Combs Valley Drive, Bonnyman, KY",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "SU Charter",
+        "business_address": "693 COMBS VALLEY DR, BONNNYMAN, KY",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-753619963",
+      "target_entity_id": "S2-886058872",
+      "source1": {
+        "business_name": "Varanasi Services Private Limited",
+        "business_address": "D5/69, Tripura Bhairavi, Varanasi, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Private Varanasi Sehovs Limited",
+        "business_address": "PLOT 446 D5/69, VARANASI, Uttar Pradesh",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-768424554",
+      "target_entity_id": "S2-548145183",
+      "source1": {
+        "business_name": "Pediatric Dentistry Cascade Associates LLC",
+        "business_address": "4243 3175, West Valley City, UT",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Pediatric Dentistry Cascade Associates L.L.C.",
+        "business_address": "004243 3175, WEST VALLEY CITY, UT",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-960850261",
+      "target_entity_id": "S2-781924940",
+      "source1": {
+        "business_name": "White Perfect Industries Pvt Ltd",
+        "business_address": "010, Mahagun Morphous Sector-50, Noida, Ghaziabad, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "व्हाइट परफेक्ट Industries प्रा. लि.",
+        "business_address": "010, GHAZIABAD, MEERUT, उत्तर प्रदेश",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-690521888",
+      "target_entity_id": "S2-78626176",
+      "source1": {
+        "business_name": "Web Textiles Pvt Ltd",
+        "business_address": "Karnataka, Bangalore, 107/2, S G Palya C V Raman Nagar",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "-- WEB TEXTI1ES PVT LTD",
+        "business_address": "107/2, BANGALORE, ಕರ್ನಾಟಕ",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-621774046",
+      "target_entity_id": "S2-243125992",
+      "source1": {
+        "business_name": "Shree Future Infra Limited",
+        "business_address": "H.No. 7-1-71/B, 1St Floor, Dharam Karan Road, Beside Narayana High, Ameerpet, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "శ్రీ ఫ్యూచర్ ఇన్‌ఫ్రా లిమిటెడ్",
+        "business_address": "Telangana, H.NO. 7-1-71/B, AMEERPET, HYDERABAD, 1ST FLOOR, DHARAM KARAN ROAD, BESIDE NARAYANA HIGH",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-337335272",
+      "target_entity_id": "S2-721402690",
+      "source1": {
+        "business_name": "Howard & Marshall Therapies Coal City",
+        "business_address": "320 2nd Avenue, Coal City, IL",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Howard & Márshall Therapies Coal City",
+        "business_address": "IL, COAL CITY, 320 SECOND AVENUE",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-743945702",
+      "target_entity_id": "S2-264124951",
+      "source1": {
+        "business_name": "Manorath Real Private Limited",
+        "business_address": "422, Pearl Omaxe, 7Th Floor, Tower- 1, Netaji Subhash Place, Pitampura, Delhi, North West Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Smt @manorathreal",
+        "business_address": "422, PEARL OMAXE, 7TH FLOOR, TOWER- 1, NETAJI SUBHASH PLACE, PITAMPURA, DELHI, Delhi",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-720046568",
+      "target_entity_id": "S2-863022597",
+      "source1": {
+        "business_name": "Aurora P.C.",
+        "business_address": "2823 Grassy Creek Drive, Indianapolis, IN",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "AURORA P.C. | www.aurorapc.com",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-343379032",
+      "target_entity_id": "S2-870698840",
+      "source1": {
+        "business_name": "KM Management Private Limited",
+        "business_address": "Maharashtra, Mumbai, Mahim West, 102, Mahim United Industrial Estate, Mogul Lane",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "KM Private Limited Partners",
+        "business_address": "102, MAHIM UNITED INDUSTRIAL ESTATE, MOGUL LANE, MAHIM WEST, महाराष्ट्र",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-616215050",
+      "target_entity_id": "S2-241337192",
+      "source1": {
+        "business_name": "Smart Technology Pvt Ltd",
+        "business_address": "Ground Floor 25/39 West Patel Nagar, New Delhi, Central Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "स्मार्ट टेक्नोलॉजी प्रा. लि.",
+        "business_address": "GROUND FLOOR 25/39 WEST PATEL NAGAR, NEW DELHI, CENTRAL DELHI, दिल्ली",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-370272044",
+      "target_entity_id": "S2-247885782",
+      "source1": {
+        "business_name": "Clear Paloma LLC",
+        "business_address": "85 James Moore Circle, Parma, NY",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Clear LLC Service",
+        "business_address": "JAMES MOORE CIRCLE, HILTON, NY",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-755307939",
+      "target_entity_id": "S2-566747618",
+      "source1": {
+        "business_name": "Smile Tv",
+        "business_address": "No.83, Second Floor, 6Th Cross, C T Bed, Banashankari 2Nd Stage, Bangalore South, Bangalore, Karnataka",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "5mile [Tv]",
+        "business_address": "DOOR NO 83, BANGALORE, BANGALORE SOUTH, ಕರ್ನಾಟಕ",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-640115238",
+      "target_entity_id": "S2-254704600",
+      "source1": {
+        "business_name": "International Infrastructure",
+        "business_address": "11-140, Milarsetty Vari Veedi, Kodada, Nalgonda, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ఇంటర్నేషనల్ ఇన్‌ఫ్రాస్ట్రక్చర్",
+        "business_address": "11-140, NALGONDA, తెలంగాణ",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-639612113",
+      "target_entity_id": "S2-5227008",
+      "source1": {
+        "business_name": "Delhi Solutions Private Limited",
+        "business_address": "H. No. 1756, Pana Mamurpur, Narela, Delhi, North Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "De1hi Solutions Private Limited",
+        "business_address": "DELHI, दिल्ली, NORTH DELHI, H. NO. 1756",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-404047222",
+      "target_entity_id": "S2-911218535",
+      "source1": {
+        "business_name": "Cummings Unified Antimony",
+        "business_address": "8249 Stone Ring Circle, Unit APT I, Indianapolis, IN",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Solbrix",
+        "business_address": "824 STONE RING CIRCLE, INDIANAPOLIS TOOWNSHIP, IN",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-790523906",
+      "target_entity_id": "S2-412142463",
+      "source1": {
+        "business_name": "Ironclad",
+        "business_address": "705 Franklin, Hartford City, IN",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Ironnlad",
+        "business_address": "HARTFORD CITY, 705 FRANKLIN, IN",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-574159131",
+      "target_entity_id": "S2-386820031",
+      "source1": {
+        "business_name": "Bharat Technologies",
+        "business_address": "Madhya Pradesh, Shop No. 214, Diamond Trade Centre 2Nd Floor, Chotta S, Arafa, Indore",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "भारत टेक्नोलॉजीज",
+        "business_address": "214, INDORE, Madhya Pradesh, INDORE",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-648937535",
+      "target_entity_id": "S2-538908246",
+      "source1": {
+        "business_name": "Surgical Group",
+        "business_address": "1815 Robindale Road, Chesterfield County, VA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "SURGICALGROUP.COM (ID: 64860)",
+        "business_address": "1815 ROBIDNALE RD, CHESTERFIELD COUNTY, VA",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-999074347",
+      "target_entity_id": "S2-736612192",
+      "source1": {
+        "business_name": "Construction Mahima Developers Private Limited",
+        "business_address": "Gala No. 6, Ground Floor, Sonal Industrial Estate New Link Road, Kanchpada, Opp. Movie Time, Malad (W), Mumbai, Mumbai City, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Private Construction Mahema Deve1opers Limited",
+        "business_address": "GALA NO. 6, MUMBAI, MUMBAI CITY, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-911331544",
+      "target_entity_id": "S2-520395998",
+      "source1": {
+        "business_name": "Lloyd & Co Corporation",
+        "business_address": "H. No. 27, Delhi, G./ F., Hasanpur, Patparganj, East Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Lloyd + (Co)",
+        "business_address": "H. NO. 27, G./ F., HAGANPUR, PATPARGANJ, DELHI, Delhi",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-213754237",
+      "target_entity_id": "S2-31578730",
+      "source1": {
+        "business_name": "Baba High Investment Private Limited",
+        "business_address": "Embassy Tech Square, Marathahalli-Sarjapur Outer Ring Road, Bangalore, Karnataka",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ಬಾಬಾ ಹೈ ಇನ್ವೆಸ್ಟ್‌ಮೆಂಟ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+        "business_address": "EMBASSY TECH SQUARE, BANGALORE, Karnataka",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-93112389",
+      "target_entity_id": "S2-477184640",
+      "source1": {
+        "business_name": "Anand Finance Private Limited",
+        "business_address": "Flat No 101, S. No. 63/4, Visawa Apartment Off Karve Road Erandwane, Pune City, Pune, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "आनंद फाइनेंस प्राइवेट लिमिटेड",
+        "business_address": "FLAT NO 10, PUNE CITY, PUNE, महाराष्ट्र",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-264690848",
+      "target_entity_id": "S2-244459025",
+      "source1": {
+        "business_name": "Creative Estate Pvt Ltd",
+        "business_address": "D-11, S/F, Defence Colony, New Delhi, South Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "क्रिएटिव एस्टेट प्रा. लि.",
+        "business_address": "Delhi, D-#11, DISTT GHAZIABAD MAIN BUS STAND DHAULANA, NEW DELHI, S/F, DEFENCE COLONY",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-972765763",
+      "target_entity_id": "S2-260777879",
+      "source1": {
+        "business_name": "My Business",
+        "business_address": "S.No 73/8, Sai Darshan, B Wing, Flat No. 302, Pimple Gurav, Haveli, Pune, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "My Búsiness",
+        "business_address": "",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-854842884",
+      "target_entity_id": "S2-568713336",
+      "source1": {
+        "business_name": "Best Energy Pvt Ltd",
+        "business_address": "Plot No: 93, Road No: 12 Sri Krish Nagar, Patna, Bihar",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "बेस्ट एनर्जी प्रा. लि.",
+        "business_address": "Bihar, PATNA, #463 PLOT NO: 93",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-515413081",
+      "target_entity_id": "S2-785989944",
+      "source1": {
+        "business_name": "Laix Odyssey, LLC",
+        "business_address": "4002 62nd Lane, Phoenix, AZ",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "laixodyssey.com",
+        "business_address": "8002 62ND LN, MARYVALE, AZ",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-553948655",
+      "target_entity_id": "S2-192691557",
+      "source1": {
+        "business_name": "Johnson Fifth Inc.",
+        "business_address": "408 Siletz View Lane, Lincoln County, OR",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "JOHNSON FÍFTH INC.",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-771127590",
+      "target_entity_id": "S2-375307996",
+      "source1": {
+        "business_name": "Shiv Enterprises Private Limited",
+        "business_address": "#12 &25/229-1, House No 2, Ground Floor, A B Nivas, Behind Canara Bank, Begur Road, Bangalore South, Bangalore, Karnataka",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ಶಿವ್ ಎಂಟರ್‌ಪ್ರೈಸಸ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+        "business_address": "DOOR NO 12 &25/229-1, HOUSE NO 2, GROUND FLOOR, A B NIVAS, BEHIND CANARA BANK, BEGUR ROAD, BANGALORE SOUTH, BANGALORE, Karnataka",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-227634986",
+      "target_entity_id": "S2-465310777",
+      "source1": {
+        "business_name": "Best Agro Private Limited",
+        "business_address": "Building No. D/304, Vasant Vihar Hyde Park, Thane, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "बेस्ट एग्रो प्राइवेट लिमिटेड",
+        "business_address": "DOOR NO 26 BUILDING NO. D/304, VASANT VIHAR HYDE PARK, MANDI, NULL, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-222889204",
+      "target_entity_id": "S2-99068744",
+      "source1": {
+        "business_name": "Kessel Holdings Group Inc",
+        "business_address": "4111 28th Avenue, Spokane, WA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "KECSL HOLDINGS GROUP INC",
+        "business_address": "004111 28ST AVE, SPOKANE, WA",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-845859297",
+      "target_entity_id": "S2-137252144",
+      "source1": {
+        "business_name": "Star Dynamic Limited LLC",
+        "business_address": "N4244 Oak Lane, Town Of Freedom, WI",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "LLC STAR DAMRC LIMITED",
+        "business_address": "OAK LANE, KAUKAUNA, WI",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-948378408",
+      "target_entity_id": "S2-995853624",
+      "source1": {
+        "business_name": "Real Impex Limited",
+        "business_address": "H No 13-6-439/1/A/59, Balajinagar, Gudimalkapur Mehdipatnam, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "రియల్ ఇంపెక్స్ లిమిటెడ్",
+        "business_address": "136439160, HYDERABAD, Telangana",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-929526917",
+      "target_entity_id": "S2-675693284",
+      "source1": {
+        "business_name": "International Builders Limited",
+        "business_address": "Shop No. 109, S No. 22/2, One Mall, Pimpri Chinchwad, Haveli, Pune, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "इंटरनेशनल बिल्डर्स लिमिटेड",
+        "business_address": "Maharashtra, S NO. 22/2, ONE MALL, PIMPRI CHINCHWAD, SHOP NO. 00109, PIMPRI CHINCHWAD, HAVELI",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-76337548",
+      "target_entity_id": "S2-869567170",
+      "source1": {
+        "business_name": "Ashadeep Trading Private Limited",
+        "business_address": "27, Dheeran Chinnamalai Street Moolapalayam, Erode, Tamil Nadu",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Lumnovi",
+        "business_address": "DOOR NO 375 27, ERODE, Tamil Nadu",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-292484177",
+      "target_entity_id": "S2-451065264",
+      "source1": {
+        "business_name": "W 5 L Tinto",
+        "business_address": "53 Bayberry Lane, York, ME",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "W 5 L Tínto",
+        "business_address": "53C BAYBERRY LN, CAPE NEDDICK CDP, ME",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-180087355",
+      "target_entity_id": "S2-327857173",
+      "source1": {
+        "business_name": "Indian Blue Infrastructure Limited",
+        "business_address": "1204-A-89 Hemkunt Chambers, Nehru Place, New Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "इंडियन ब्लू इंफ्रास्ट्रक्चर लिमिटेड",
+        "business_address": "NEW DELHI, NEHRU PLACE, दिल्ली, 1204-A-89 HEMKUNT CHAMBERS",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-272131061",
+      "target_entity_id": "S2-409330435",
+      "source1": {
+        "business_name": "Good Enterprises Private Limited",
+        "business_address": "Room No 23, Model House, 40, Strand Road, Kolkata, Kolkata, Howrah, West Bengal",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "গুড এন্টারপ্রাইজেস প্রাইভেট লিমিটেড",
+        "business_address": "ROSM NO 23, KOLKATA, HOWRAH, পশ্চিমবঙ্গ",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-632736237",
+      "target_entity_id": "S2-714158080",
+      "source1": {
+        "business_name": "Royal Logistics Private Limited",
+        "business_address": "New Dehli, First Floor, 391, Delhi, Zakir Nagar",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "रॉयल लॉजिस्टिक्स प्राइवेट लिमिटेड",
+        "business_address": "दिल्ली, ZAKIR NAGAR, 391, NEW DELHI",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-131540431",
+      "target_entity_id": "S2-865476281",
+      "source1": {
+        "business_name": "Mountain School of Medicine LLC",
+        "business_address": "206 Norfolk Drive, Mansfield, TX",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Mountain Schóol of Medicine LLC",
+        "business_address": "NORFOLK DRIVE, TX, MANSFIELD",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-256058253",
+      "target_entity_id": "S2-392926518",
+      "source1": {
+        "business_name": "PQ Sterling Development",
+        "business_address": "3480 Morgan Valley Drive, Morgan, UT",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "PQ Sterling Service",
+        "business_address": "MORGAN, UT, 3480 1/2 MORGAN VALLEY DRIVE",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-140200059",
+      "target_entity_id": "S2-761191165",
+      "source1": {
+        "business_name": "Press Hospital",
+        "business_address": "Plot No-50, Sector-20 Dwarka, New Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "PRESS HOGTSAL",
+        "business_address": "PLOT NO-#50, SECTOR-20 DWARKA, Delhi",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-48129982",
+      "target_entity_id": "S2-917589433",
+      "source1": {
+        "business_name": "Rpb Holdings",
+        "business_address": "Delhi, North West, Delhi, T/3610, Raja Park Shakur Basti",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Mr rpbholdings.com",
+        "business_address": "T/A-3610, RAJA PARK SHAKUR BASTI, DELHI, Delhi",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-907907681",
+      "target_entity_id": "S2-370175834",
+      "source1": {
+        "business_name": "Ram Infra Private Limited",
+        "business_address": "Plot-B, Flat-703, Floor-7, Wing-5A Shraddha Chsl, Thakur Complex Road, Kand, Ivali East, Mumbai, Mumbai City, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "राम इंफ्रा प्राइवेट लिमिटेड",
+        "business_address": "PLOT-B, MUMBAI, MUMBAI CITY, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-386809379",
+      "target_entity_id": "S2-413606521",
+      "source1": {
+        "business_name": "Vinayakkripa Trading Private Limited",
+        "business_address": "Telangana, Nagar, Hyderabad, H No. 2-6-14/5/A, Flat No. 101, 1St Floor Heera Nagar Colony, Upper Pally, Rajendra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "AVISYN",
+        "business_address": "H NO. 2-6-14/5/A, FLAT NO. 101, 1ST FLOOR HEERA NAGAR COLONY, UPPER PALLY, RAJENDRA, NAGAR, HYDERABAD, Andhra Pradesh",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-766372358",
+      "target_entity_id": "S2-503720874",
+      "source1": {
+        "business_name": "Sree Care Private Limited",
+        "business_address": "House No. 1727, Hbc, Sector-14, Sonipat, Sonipat, Haryana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "श्री केयर प्राइवेट लिमिटेड",
+        "business_address": "HNUSE NO. D/1727, SONIPAT, Haryana",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-366786071",
+      "target_entity_id": "S2-325734989",
+      "source1": {
+        "business_name": "Innovative Media Private Limited",
+        "business_address": "No. 32, Kempapura Main Road, Kempapura, Bangalore, Bangalore, Karnataka",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ಇನೋವೇಟಿವ್ ಮೀಡಿಯಾ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+        "business_address": "DOOR NO 32, BASVANPURA, VIRGO NAGAR POST BANGALORE, Karnataka",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-491199146",
+      "target_entity_id": "S2-175280744",
+      "source1": {
+        "business_name": "Smart Great Products Private Limited",
+        "business_address": "Ground Floor, G-003, Sector 63, E-57A, Uttar Pradesh, Noida, Gautam Buddha Nagar",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "स्मार्ट ग्रेट प्रोडक्ट्स प्राइवेट लिमिटेड",
+        "business_address": "GAUTAM BUDDHA NAGAR, NOIDA, E-57A, Uttar Pradesh, GROUND FLOOR, G-003, SECTOR 63",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-858153461",
+      "target_entity_id": "S2-44067830",
+      "source1": {
+        "business_name": "Yv Packaging Private Limited",
+        "business_address": "Gali No 10 Jeevanghar, Aligarh Uttar Pardesh, Aligarh, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Yv  Packaging Priaabe Limited",
+        "business_address": "",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-576312794",
+      "target_entity_id": "S2-524597121",
+      "source1": {
+        "business_name": "Alpha Solutions Private Limited",
+        "business_address": "H.No.8-7-176/57, Plot No.57, Ram Raj Nagar Swarna Dhama Nagar, Diary Farm Road, Old Bowenpally, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ఆల్ఫా సొల్యూషన్స్ ప్రైవేట్ లిమిటెడ్",
+        "business_address": "NO 8-7-176/5, HYDERABAD, Andhra Pradesh",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-70924598",
+      "target_entity_id": "S2-974481488",
+      "source1": {
+        "business_name": "Lotus Sunrise Enterprises Private Limited",
+        "business_address": "Flat No.901, Ishwar Aura, Plot No.A-13 Sector-8, Ulwe, Navimumbai, Raigarh, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "लोटस सनराइज एंटरप्राइजेज प्राइवेट लिमिटेड",
+        "business_address": "FLAT NO.901, ISHWAR AURA, PLOT NO.A-13 SECTOR-8, ULWE, RAIGARH, NAVIMUMBAI, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-582334276",
+      "target_entity_id": "S2-327556228",
+      "source1": {
+        "business_name": "Tri-State Nano LLC",
+        "business_address": "713 8th Avenue, Salt Lake City, UT",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Tri-State Náno LLC",
+        "business_address": "##713 8ST AVE, SALT LAKE CITY, UT",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-193450324",
+      "target_entity_id": "S2-599481958",
+      "source1": {
+        "business_name": "Swastik Trading Private Limited",
+        "business_address": "Kasaba Hobli, Hiredonkihalli, Talkere, Tumakuru, Tumakuru, Tumkur, Karnataka",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ಸ್ವಸ್ತಿಕ್ ಟ್ರೇಡಿಂಗ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+        "business_address": "NO 113 KASABA HOBLI, TUMAKURU, TUMKUR, Karnataka",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-390906355",
+      "target_entity_id": "S2-272427207",
+      "source1": {
+        "business_name": "Vasavi & Co",
+        "business_address": "H No.63, Gr Fl, Ks-1, Shree Rajlaxmi Textile Park, Pogaon, Bhiwandi, Thane, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "VASAVI & &",
+        "business_address": "H NO.6-3 , GR FL, KS-1, SHREE RAJLAXMI TEXTILE PARK, POGAON, BHIWANDI, THANE, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-894525506",
+      "target_entity_id": "S2-25985115",
+      "source1": {
+        "business_name": "Select Applied",
+        "business_address": "Scio, 36218 Meyer Street, OR",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Select Service",
+        "business_address": "36219 MEYER STREET, SICO, OR",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-881015038",
+      "target_entity_id": "S2-774828760",
+      "source1": {
+        "business_name": "Bharat Industries Private Limited",
+        "business_address": "B-3/276, Chitrakoot Vaishali Nagar, Jaipur, Rajasthan",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "भारत इंडस्ट्रीज प्राइवेट लिमिटेड",
+        "business_address": "B-3/276, JAIPUR, CHITRAKOOT VAISHALI NAGAR, Rajasthan, JAIPUR",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-873279340",
+      "target_entity_id": "S2-890715075",
+      "source1": {
+        "business_name": "Shakti Media LLP",
+        "business_address": "33/1, N. S. Road Room No. 567, Kolkata, Howrah, West Bengal",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "শক্তি মিডিয়া এলএলপি",
+        "business_address": "HOWRAH, N. S. ROAD ROOM NO. 567, PLOT 993 33/1, KOLKATA, West Bengal",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-109639933",
+      "target_entity_id": "S2-985332679",
+      "source1": {
+        "business_name": "Hitech Foundation Limited",
+        "business_address": "Plot No-261/624/701, Khata No-154/478, At-Aringol, Po-Bainchua, Bhubaneswar, Khordha, Orissa",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ହାଇଟେକ୍ ଫାଉଣ୍ଡେସନ୍ ଲିମିଟେଡ୍",
+        "business_address": "ଓଡ଼ିଶା, KHORDHA, NO. #286 PLOT NO-261/624/701, BHUBANESWAR",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-811411473",
+      "target_entity_id": "S2-386895959",
+      "source1": {
+        "business_name": "Pediatric Partners, PLLC",
+        "business_address": "1025 200th Street Court, Spanaway, WA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "pediatricpartners.com",
+        "business_address": "NULL, SPANAWAY, 1025 200ND STREET COURT, WA",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-476643494",
+      "target_entity_id": "S2-466143620",
+      "source1": {
+        "business_name": "Sree Foods",
+        "business_address": "Shop No 8 Ground And First Floor Sharif Motor Garage Mahatma Kabir Nagar Sahar Road An, Dheri East, Mumbai, Mumbai City, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "श्री फूड्स",
+        "business_address": "SHTP NO 8 GROUND AND FIRST FLOOR SHARIF MOTOR GARAGE MAHATMA KABIR NAGAR SAHAR ROAD AN, DHERI EAST, GREATER MUMBAI, BOMBAY, Maharashtra",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-189505796",
+      "target_entity_id": "S2-308883595",
+      "source1": {
+        "business_name": "Jai Marketing Private Limited",
+        "business_address": "#2, First Floor, Gandhi Nagar, 5Th Street, Tirupur, Tamil Nadu",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ஜெய் மார்க்கெட்டிங் பிரைவேட் லிமிடெட்",
+        "business_address": "NO 2, 5TH STREET, TIRUPUR, Tamil Nadu",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-820146027",
+      "target_entity_id": "S2-441410438",
+      "source1": {
+        "business_name": "United Foods Limited",
+        "business_address": "893/1988, Wright Town, Jabalpur, Madhya Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "यूनाइटेड फूड्स लिमिटेड",
+        "business_address": "893/1988, JABALPUR REGION, Madhya Pradesh",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-405052508",
+      "target_entity_id": "S2-333553922",
+      "source1": {
+        "business_name": "Good Marketing Private Limited",
+        "business_address": "30/2 S. S. Ashok Nagar, New Delhi, West Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "गुड मार्केटिंग प्राइवेट लिमिटेड",
+        "business_address": "30/2 S. S. ASHOK NAGAR, WEST DELHI, NEW DELHI, Delhi",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-316813683",
+      "target_entity_id": "S2-79554576",
+      "source1": {
+        "business_name": "Ear Nose & Throat Partners, Inc",
+        "business_address": "12 Grange Avenue, Adams, NY",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Ear Nose Throat Partners, Inc Services",
+        "business_address": "12 1/2 GRANGE AVENUE, ADAMMS TOWNSHIP, NY",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-691629301",
+      "target_entity_id": "S2-519153015",
+      "source1": {
+        "business_name": "Memorial Fund V",
+        "business_address": "624 Ryder Cup Lane, Virginia Beach City, VA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Memorial V Fhud",
+        "business_address": "624 RYDFR CUP LN, VIRGINIA BEACH, VA",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-645337611",
+      "target_entity_id": "S2-344735252",
+      "source1": {
+        "business_name": "Midwest Charities VI",
+        "business_address": "CT, 57 Forest Street, New Canaan",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "MIDWEST CHAHRITSI VI",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-228040777",
+      "target_entity_id": "S2-93262855",
+      "source1": {
+        "business_name": "Roland Automotive LLC",
+        "business_address": "5420 Connecticut Avenue, Unit 414, Washington, DC",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Roland Atauimootve LLC",
+        "business_address": "5420 CONNECTICUT AVE, WASHINGTON TOWNSHIP, DC",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S2",
+      "source1_entity_id": "S1-928593308",
+      "target_entity_id": "S2-207136025",
+      "source1": {
+        "business_name": "Jain Services Private Limited",
+        "business_address": "H.No - A- 390, Sector-19, Noida, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "जैन सर्विसेज प्राइवेट लिमिटेड",
+        "business_address": "H.NO - A- #390, SECTOR-19, Uttar Pradesh, NOIDA",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-279659917",
+      "target_entity_id": "S3-45295679",
+      "source1": {
+        "business_name": "Gautam Buddha Nagar India Ltd",
+        "business_address": "Office No 9143, 9Th Floor, Gaur City Mall, Sector -4, Gautam Buddha Nagar, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Gautambuddhanagar.Com",
+        "business_address": "Office No 09143, Gautam Buddha Nagar, Gaur City Gaur Chowk, UP",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-995440947",
+      "target_entity_id": "S3-297141378",
+      "source1": {
+        "business_name": "Hallmark Build Private Limited",
+        "business_address": "Plot No 207, Sector 47 Urban Estate, Gurgaon, Haryana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Hallmark Bbsciud Private Limited",
+        "business_address": "Plot No 207, Gurgaon, Gurugram, HR, Sector 47 Urban Estate",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-825854271",
+      "target_entity_id": "S3-357268528",
+      "source1": {
+        "business_name": "Raj Care Private Limited",
+        "business_address": "Plot No 353, Industrial Area Phase-I Panchkula, Panchkula, Haryana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "राज केयर प्राइवेट लिमिटेड",
+        "business_address": "HR, Door No 353, Ambala",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-27613469",
+      "target_entity_id": "S3-163361413",
+      "source1": {
+        "business_name": "Hyderabad Tours LLP",
+        "business_address": "Plot No-5-5, Sy.No-360 Chandanagar, Taranagar, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Hyderabad Thues LLP",
+        "business_address": "Plot No-5-5, Sy.no-360 Chandanagar, Taranagar, Rangareddy, Hyderabad, TG",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-958391660",
+      "target_entity_id": "S3-373690274",
+      "source1": {
+        "business_name": "Primary Care Associates Inc",
+        "business_address": "2015 Parkway Place, Tyler, TX",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Primary Care",
+        "business_address": "2015 Parkway Place, Texas, Tyler",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-230942517",
+      "target_entity_id": "S3-431533416",
+      "source1": {
+        "business_name": "Sun Investment Private Limited",
+        "business_address": "H No 1-24-133, Plot No.28 Vasavi Nagar, Old Alwal, Tirumalagiri, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Nyladrex",
+        "business_address": "Hyderabad, H.no 1-24-133, TG",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-909624381",
+      "target_entity_id": "S3-21485120",
+      "source1": {
+        "business_name": "Gujarat Consulting Private Limited",
+        "business_address": "F - 6 Mansarovar Garden, Shopping Centre-I, Delhi, West Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "गुजरात कंसल्टिंग प्राइवेट लिमिटेड",
+        "business_address": "F - 6- Mansarovar Garden, West Delhi, DL",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-859806302",
+      "target_entity_id": "S3-160776434",
+      "source1": {
+        "business_name": "Davis Safeguard",
+        "business_address": "735 Scenic Drive, Manchester, ME",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Davis Saefsugrad",
+        "business_address": "735 Scenic Dr, Augusta, Maine",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-132464319",
+      "target_entity_id": "S3-698410477",
+      "source1": {
+        "business_name": "Indo Producer Private Limited",
+        "business_address": "P No.43, 2Nd Street, Veeramani Nagar Nanmangalam, Chennai, Kancheepuram, Tamil Nadu",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Indo புரொட்யூசர் பிரைவேட் லிமிடெட்",
+        "business_address": "",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-876757145",
+      "target_entity_id": "S3-315357046",
+      "source1": {
+        "business_name": "Piedmont Companies, LLC",
+        "business_address": "7121 High Ridge Drive, City Of El Paso, TX",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Piedmont LLC [Center]",
+        "business_address": "Texas, High Ridge Dr, City Of El Paso",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-343292542",
+      "target_entity_id": "S3-715872646",
+      "source1": {
+        "business_name": "Alpha Aditya It Private Limited",
+        "business_address": "Unit No 1801, Sy No 83/1, Plot No 30/C, South West Side Of 18Th Floor, 18Th Floor, Tower 1, Orbit, Hyderabad Knowledge City, Raidurgam (Panmaktha Village), Serilingampally, Shaikpet, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ఆల్ఫా ఆదిత్య ఐటీ ప్రైవేట్ లిమిటెడ్",
+        "business_address": "Unit No A-1801, Hyderabad, తెలంగాణ",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-112201463",
+      "target_entity_id": "S3-202606690",
+      "source1": {
+        "business_name": "American Frontier Lithium LLC",
+        "business_address": "104 Capetown Court, Unit 206, Weaverville, NC",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "American Fróntier LLC Center",
+        "business_address": "Unit 206, North Carolina, Weaverville, 104 Capetown Court",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-483967842",
+      "target_entity_id": "S3-31727571",
+      "source1": {
+        "business_name": "Durham Consulting",
+        "business_address": "8 Deep Forest Drive, Durham, NC",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Durham Cónsulting",
+        "business_address": "8 Deep Forest Dr, Durham, North Carolina",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-177148166",
+      "target_entity_id": "S3-108170529",
+      "source1": {
+        "business_name": "Om Skin (India) Private Limited",
+        "business_address": "House No. 88, Plot No. 05, Khasra No. 592, Sarsawan, Arjunganj, Lucknow, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Om Skin Private Limited Services",
+        "business_address": "House No. 88, Mohanlalganj, UP",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-565918162",
+      "target_entity_id": "S3-417745605",
+      "source1": {
+        "business_name": "Urban Om Investments Pvt Ltd",
+        "business_address": "35/3 East Patel Nagar, New Delhi, Central Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "अर्बन ओम इन्वेस्टमेंट्स प्रा. लि.",
+        "business_address": "H.no 35/3 East Patel Nagar, New Delhi, DL",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-49944013",
+      "target_entity_id": "S3-380668302",
+      "source1": {
+        "business_name": "Urology Care",
+        "business_address": "1304 105th Place, Mesa, Unit 1124, AZ",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "UROLOGY UROLOGY CARE",
+        "business_address": "1303 105rd Pl, # 1124, Mesa, Arizona",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-903183160",
+      "target_entity_id": "S3-420520831",
+      "source1": {
+        "business_name": "Little Bistro",
+        "business_address": "TX, 313 Saint Joseph Street, Karnes City",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Little Bistro Center",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-639705630",
+      "target_entity_id": "S3-89386252",
+      "source1": {
+        "business_name": "Dental Advanced Center LLC",
+        "business_address": "9032 Gavelwood Court, Fairfax County, VA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Dental Ádvanced Center LLC",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-320368612",
+      "target_entity_id": "S3-53466755",
+      "source1": {
+        "business_name": "Bn Training Private Limited",
+        "business_address": "62, Kesar Kunj - 1, Bhilwara, Rajasthan",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Bn Training Prgivet Límited",
+        "business_address": "62, Kesar Kunj - 1, Ajmer Region, Bhilwara, RJ",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-918280851",
+      "target_entity_id": "S3-330549200",
+      "source1": {
+        "business_name": "Kundan (india) Private Limited",
+        "business_address": "B-207, Second Floor, Prin, Sector-13, Rohini, Delhi, North West Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Kundan Private Limited Center",
+        "business_address": "B-207, Second Floor, Prin, Sector-13, Rohini, Delhi, North West Delhi, दिल्ली",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-229291009",
+      "target_entity_id": "S3-90462092",
+      "source1": {
+        "business_name": "Pediatric Clinic",
+        "business_address": "Huntersville, NC, 15105 Ramah Church Road",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Pediatricclinic.Com",
+        "business_address": "#15105 Ramah Church Rd, Hunterville Township, North Carolina",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-639162506",
+      "target_entity_id": "S3-878377114",
+      "source1": {
+        "business_name": "Brule Unified Summit LP",
+        "business_address": "Raleigh, NC, Unit 509, 8831 Cypress Lakes Drive",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Bruleunifiedsummit.Com",
+        "business_address": "8831 Cypress Lakes Dr, Unit 509, Rlaeigh CITY, North Carolina",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-989087517",
+      "target_entity_id": "S3-781578764",
+      "source1": {
+        "business_name": "C 8 D Barings LLC",
+        "business_address": "113 Catherine Street, Saratoga Springs, NY",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "The The C 8 D Barings LLC",
+        "business_address": "113-117 Catherine Saint, Saratoga Springs, New York",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-772787505",
+      "target_entity_id": "S3-600497991",
+      "source1": {
+        "business_name": "Fanni Garcia Coastal Oneim",
+        "business_address": "AR, 901 Lakeshore Drive, Hot Springs",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "fannigarciacoastal.com",
+        "business_address": "901 Lakeshore Dr, HOT Prings National PARK, Arkansas",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-262226959",
+      "target_entity_id": "S3-244050132",
+      "source1": {
+        "business_name": "Gold Producer Private Limited",
+        "business_address": "G3, Vijaya Lakshmi Residency, Qutubullapur, K.V.Rangareddy, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "గోల్డ్ ప్రొడ్యూసర్ ప్రైవేట్ లిమిటెడ్",
+        "business_address": "G3, K.v.rangareddy, TG",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-577524886",
+      "target_entity_id": "S3-231866213",
+      "source1": {
+        "business_name": "Internal Medicine Associates LLC",
+        "business_address": "110 3rd Street, Unit 409, Columbus, OH",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "The Internal Medicine Associates LLC",
+        "business_address": "110 3rd Street, Columbus, Ohio",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-446958427",
+      "target_entity_id": "S3-491767594",
+      "source1": {
+        "business_name": "Foot & Ankle Care Associates",
+        "business_address": "103 7th Court, Bondurant, IA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Foot & Ankle Care",
+        "business_address": "Iowa, Seventh Ct, Bondurant",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-275822224",
+      "target_entity_id": "S3-285020249",
+      "source1": {
+        "business_name": "Om Services Private Limited",
+        "business_address": "H.No. C-2/2, Vashisht Park, New Delhi, South West Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "@omservices",
+        "business_address": "H.no. C-2/2, New Delhi, South West Delhi, दिल्ली",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-351120846",
+      "target_entity_id": "S3-212067251",
+      "source1": {
+        "business_name": "FO Consultant Pvt Ltd",
+        "business_address": "Maharashtra, Flat No. 801, Panvel, Raigarh(Mh), Plot No 38, Reza Grandeur, Section 35/I, Kharghar",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "@foconsultant",
+        "business_address": "Flat No. 801, Panvel, Raigarh(mh), MH",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-971305350",
+      "target_entity_id": "S3-378641739",
+      "source1": {
+        "business_name": "Umang Buildcon Limited",
+        "business_address": "F.No. 201, Shubh Labh Resi-B., 851/1 Khajrana Ring Road, Indore, Madhya Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Umang Limited Center",
+        "business_address": "F.no. ##201, Indore, मध्य प्रदेश",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-350111878",
+      "target_entity_id": "S3-776236799",
+      "source1": {
+        "business_name": "East Healthcare Private Limited",
+        "business_address": "115, Dhanewa Dhanaei, Nichlaul Road, Dhanewa, Maharajganj Sadar, Maharajganj, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "East Hlathcare  Private Limited",
+        "business_address": "",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-764924413",
+      "target_entity_id": "S3-838238371",
+      "source1": {
+        "business_name": "Dental Clinic",
+        "business_address": "372 Buttonwood Drive, NY, Greece",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "dental clinic",
+        "business_address": "372 Buttonwohd Drive, Hilton, New York",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": true,
+        "canonical_name": true,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-747389481",
+      "target_entity_id": "S3-556949517",
+      "source1": {
+        "business_name": "U+ Sun",
+        "business_address": "Portsmouth City, VA, 3107 Ferguson Drive",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "U+  Center",
+        "business_address": "3107 Ferguson Dr, Porrtsmouth, Virginia",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-913987319",
+      "target_entity_id": "S3-629739559",
+      "source1": {
+        "business_name": "Stag Annuities LLC",
+        "business_address": "OR, Unit #2, Beaverton, 7204 204th Avenue",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Stag Anunities LLC",
+        "business_address": "204th Avenue, # #2, Beavverton, Oregon",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-428145616",
+      "target_entity_id": "S3-65940597",
+      "source1": {
+        "business_name": "Pallavi Paper Ltd",
+        "business_address": "No:172, First Floor, Vg Paneer Nagar Main Road Mogappair, Chennai, Tamil Nadu",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Zetadrex",
+        "business_address": "Chennai, Door No 969 No:172, Chennai, TN",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-922913770",
+      "target_entity_id": "S3-453854082",
+      "source1": {
+        "business_name": "Pulse Solutions Private Limited",
+        "business_address": "K-1/33 2Nd Floor Model Town-Ii, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Pulse S0lutions Private Limited",
+        "business_address": "Block F-729 K-1/33 2Nd Floor Model Town-ii, Delhi, DL",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-874271241",
+      "target_entity_id": "S3-120362844",
+      "source1": {
+        "business_name": "Potts and Bingham LLC",
+        "business_address": "1001 Downs Boulevard, Franklin, TN",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Potts and 8íngham LLC",
+        "business_address": "Tennessee, 1001 Downs Boulevard, Franklin",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-790411047",
+      "target_entity_id": "S3-65204807",
+      "source1": {
+        "business_name": "Willis Merchants LLC",
+        "business_address": "500 Ferry Street, Unit Unit 308, Eugene, OR",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Willis Mcchnaest LLC",
+        "business_address": "#500 Ferry Street, # Unit 308, Eugene, Oregon",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-375752789",
+      "target_entity_id": "S3-807091413",
+      "source1": {
+        "business_name": "New Life Catholic Church",
+        "business_address": "715 Meridian Street, Washington, IN",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "New Lie Catholic Church",
+        "business_address": "715 1/2 Meridian St, Washington, Indiana",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-546870480",
+      "target_entity_id": "S3-223451768",
+      "source1": {
+        "business_name": "Heartland Ofs LLC",
+        "business_address": "7680 Janean Drive, Brownsburg, IN",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Heartlandofs.Com",
+        "business_address": "7680 Jaean Drive, Brownsburg, Indiana",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-330319684",
+      "target_entity_id": "S3-6848242",
+      "source1": {
+        "business_name": "Innovative Finance Private Limited",
+        "business_address": "H.No. 12.13.765, Siddharth Nagar Kimtee Colony, Tarnaka, Beside Ghmc Park, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "ఇన్నోవేటివ్ ఫైనాన్స్ ప్రైవేట్ లిమిటెడ్",
+        "business_address": "Door No 012.13.765, Hyderabad, TG",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-477335214",
+      "target_entity_id": "S3-354228253",
+      "source1": {
+        "business_name": "Tech Foods Private Limited",
+        "business_address": "A-15/14, Sulabh Awash Sector 1, Gomtinagar Extension, Lucknow, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Mr Tech Foods Private",
+        "business_address": "A-15/14, Lucknow, उत्तर प्रदेश",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-731313362",
+      "target_entity_id": "S3-257260236",
+      "source1": {
+        "business_name": "First Church Corp",
+        "business_address": "221 Bank Street, Unit #2, Suffolk City, VA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "First Chumch Corp",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-613105217",
+      "target_entity_id": "S3-727427342",
+      "source1": {
+        "business_name": "Laxmi Agro Pvt Ltd",
+        "business_address": "Bangalore, Karnataka, No.384/99/3, Virgonagar Post Bangalore, D S Complex, Above State Bank, 2Nd Floor, Avalahalli Village, Bidarahall, I Hobli",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Dr laxmi ágro pvt ltd",
+        "business_address": "Door No 384/99/3, Virgonagar Post Bangalore, Bangalore, KA",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-817294101",
+      "target_entity_id": "S3-255105608",
+      "source1": {
+        "business_name": "Shiv Management Private Limited",
+        "business_address": "Ug-11 Plot No 27 Upper Ground Floor Sagar Plaza-2, Pitampura, Delhi, North West, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "शिव मैनेजमेंट प्राइवेट लिमिटेड",
+        "business_address": "Ug-11 Plot No 27 Upper Ground Floor Sagar Plaza-2, Pitampura, Delhi, North West, DL",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-710569234",
+      "target_entity_id": "S3-758964206",
+      "source1": {
+        "business_name": "Urgent Care Group",
+        "business_address": "509 9th Street, Burlington, KS",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Urgent Group Care",
+        "business_address": "509 9st St, PO Box 6470, Burlington, Kansas",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-999678857",
+      "target_entity_id": "S3-741384214",
+      "source1": {
+        "business_name": "NX Services Private Limited",
+        "business_address": "A-201, 2Nd Floor, Block-A, Stellar Mi Legacy, Zeta-1, Greater Noida, Bishrakh, Gautam Buddha Nagar, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Korbrix formerly: NX Services Private Limited",
+        "business_address": "A-201, 2Nd Floor, Block-A, Stellar Mi Legacy, Zeta-1, Greater Noida, Bishrakh, Uttar Pradesh, Gautam Buddha Nagar",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-343684799",
+      "target_entity_id": "S3-149999207",
+      "source1": {
+        "business_name": "Green Properties",
+        "business_address": "C/O Bibi Rehana, Panch - Bochganw Vill -Bochgaon, Tola-Khariya, Ward No.13, Block-Kasba, Purnia, Bihar",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "greenproperties.com",
+        "business_address": "C/o Bibi Rehana, Purnia, Block-kasba, BR",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-63629946",
+      "target_entity_id": "S3-443133836",
+      "source1": {
+        "business_name": "Shree Health Limited",
+        "business_address": "House No. 85 Block C Moti Nagar City, Delhi, West Delhi, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Shree Limited Services",
+        "business_address": "House No. 85 Block C Moti Nagar City, Delhi, West Delhi, DL",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-164003558",
+      "target_entity_id": "S3-386230750",
+      "source1": {
+        "business_name": "Veterans Program",
+        "business_address": "2822 Lisa Circle, Stillwater, OK",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "VETERANS PROGRAM Enterprises",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-780404307",
+      "target_entity_id": "S3-753914716",
+      "source1": {
+        "business_name": "Dynamic Technologies",
+        "business_address": "285 C, First Floor, Block-C, Bhai Randhir Singh Nagar, Ludhiana, Punjab",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Mr Dynamic Technlioogeis",
+        "business_address": "#285 C, Ludhiana, ਪੰਜਾਬ",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-629093742",
+      "target_entity_id": "S3-301966911",
+      "source1": {
+        "business_name": "Hitech Constructions Private Limited",
+        "business_address": "457, Vivekananda Nagar Colony Kukatpally, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "హైటెక్ కన్‌స్ట్రక్షన్స్ ప్రైవేట్ లిమిటెడ్",
+        "business_address": "455, Hyderabad, Andhra Pradesh",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-604451846",
+      "target_entity_id": "S3-972999173",
+      "source1": {
+        "business_name": "Maurer, Anette, D.D.S., P.C.",
+        "business_address": "TN, Loudon, 148 Spruce Circle",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Maurer, Amnefte, DDS, PC",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-251567476",
+      "target_entity_id": "S3-386077256",
+      "source1": {
+        "business_name": "Superior City",
+        "business_address": "208 4th Street, North Manchester, IN",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "5uperior City",
+        "business_address": "08 4th St, North Manchester, Indiana",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-92037908",
+      "target_entity_id": "S3-353728009",
+      "source1": {
+        "business_name": "Blue Properties Pvt Ltd",
+        "business_address": "1/23, Erode, Perundurai R.S. (Po), Subavalar Industries Compound, Kommakoil Pudur Road, Tamil Nadu",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "புளூ புராப்பர்ட்டீஸ் பிரைவேட் லிமிடெட்",
+        "business_address": "1/23, Perundurai R.s. (Po), Erode, TN",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-584798754",
+      "target_entity_id": "S3-648773636",
+      "source1": {
+        "business_name": "UQ Evolution Inc",
+        "business_address": "Lakewood, 10831 108th Avenue, WA, Unit #E3",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "UQ Inc Services",
+        "business_address": "108nd Ave, Unit #E3, Lakewood, Washington",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-392794267",
+      "target_entity_id": "S3-381569633",
+      "source1": {
+        "business_name": "Awadh Ventures Private Limited",
+        "business_address": "1819, Ss Puram Main Road, Tumkur-2., Tumkur, Karnataka",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Awadh Vleiturs Private Limited",
+        "business_address": "4819, Tumkur-2., Tumkur, KA",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-692140856",
+      "target_entity_id": "S3-542147530",
+      "source1": {
+        "business_name": "National Ridge Digital, L.L.C.",
+        "business_address": "2657 Lenox Road, Unit 105, Atlanta, GA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "nationalridgedigital.com",
+        "business_address": "Georgia, 2657 Lenox Rd, Atlanta CTY, PO Box 5285",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-818132468",
+      "target_entity_id": "S3-463847255",
+      "source1": {
+        "business_name": "Balaji Finance Private Limited",
+        "business_address": "Sx-61, 6Th Floor, Npx, Urbtech, Sector-153, Noida, Gautam Buddha Nagar, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Balaji फाइनेंस प्राइवेट लिमिटेड",
+        "business_address": "Sx-61, Noida, Gautam Buddha Nagar, UP",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-351267062",
+      "target_entity_id": "S3-289696013",
+      "source1": {
+        "business_name": "Gulf Silverbox LLC",
+        "business_address": "VA, 2480 Low Ground Road, Gloucester County",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Gulf Snolversbmx LLC",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-854284989",
+      "target_entity_id": "S3-317013910",
+      "source1": {
+        "business_name": "Kimble Society",
+        "business_address": "125 Guest Street, Unit 421, Boston, MA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Kimblesociety.Com",
+        "business_address": "125 Guest Street, # 421, Brighton, Massachusetts",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-909341166",
+      "target_entity_id": "S3-388137293",
+      "source1": {
+        "business_name": "Fab Educational Society",
+        "business_address": "D.No.3-30-53/4, Brundavan Gardens, Guntur, Andhra Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Fab Educationa1 Sefcyi",
+        "business_address": "",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-594977900",
+      "target_entity_id": "S3-226012688",
+      "source1": {
+        "business_name": "Signature Engineering Global",
+        "business_address": "178 8th Avenue, Columbus, OH",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "signatureengineeringglobal.com",
+        "business_address": "Coulmbus CITY, 178 8st Ave, Ohio",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-252104576",
+      "target_entity_id": "S3-710941952",
+      "source1": {
+        "business_name": "Rare & Sons Private Limited",
+        "business_address": "Flat-7, 2/C, Fakir Para Road, Kolkata, Kolkata, Howrah, West Bengal",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Rare & Soms Private  Limited",
+        "business_address": "Flat-7, Howrah, WB",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-133860060",
+      "target_entity_id": "S3-380969873",
+      "source1": {
+        "business_name": "Zepheon Nano L.L.C.",
+        "business_address": "108 Mimosa Court, Smithfield Town, VA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Zepheon Ndno L.L.C.",
+        "business_address": "108 Mimosa Ct, Smithfield Township, Virginia",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-572282261",
+      "target_entity_id": "S3-807531807",
+      "source1": {
+        "business_name": "Sai Care Private Limited",
+        "business_address": "703, Bldg No H/6, Cosmo Plaza Chs, New Mhada Colony, Sahakar Nagar, Chembur, Mumbai, Mumbai City, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "साईं केयर प्राइवेट लिमिटेड",
+        "business_address": "Block A-601 703, Mumbai, Mumbai City, महाराष्ट्र",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-153535857",
+      "target_entity_id": "S3-530981822",
+      "source1": {
+        "business_name": "Select Defense Innovations Partners",
+        "business_address": "250 Ipswich Place, Albemarle County, VA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "selectdefenseinnovations.com",
+        "business_address": "250 Ipswich Pl, Charlottesvillee CDP, Virginia",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-328117777",
+      "target_entity_id": "S3-674546357",
+      "source1": {
+        "business_name": "OD Prabhakar Private Limited",
+        "business_address": "15A, 4Th Floor, City Vista, Tower A, Suit 155, Fountain Road, Kharadi, Pune, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "OD Private Limited Services",
+        "business_address": "",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-561538758",
+      "target_entity_id": "S3-665159119",
+      "source1": {
+        "business_name": "Anchor Dynamic Krakacquisition",
+        "business_address": "Fl 2, 3201 Aviation Way, TN, Lebanon",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "@ánchordynamic",
+        "business_address": "Tennessee, Lebanon, Aviation Way, Fl 2",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-575330841",
+      "target_entity_id": "S3-214361988",
+      "source1": {
+        "business_name": "Galaxy Services Limited",
+        "business_address": "B-312, 7Th Main, Ii Stage, Peenya Industrial Area, Bangalore, Karnataka",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Dr Fluxdrex",
+        "business_address": "KA, Bangalore, Bengaluru, B-312.",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-730303460",
+      "target_entity_id": "S3-11488377",
+      "source1": {
+        "business_name": "Physical Therapy Specialists, LLC",
+        "business_address": "1211 Lake Point Drive, Webster, NY",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Physical  Therapy LLC Specialists,",
+        "business_address": "1211 Lake Point Drive, Webster, New York",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-653166183",
+      "target_entity_id": "S3-337942732",
+      "source1": {
+        "business_name": "Chiropractic Clinic, LLC",
+        "business_address": "1118 Fox Run Drive, Charlotte, NC",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Chiropractic Clinic,",
+        "business_address": "1118. Fox Run Drive, Charlotte, North Carolina",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": true,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-642952529",
+      "target_entity_id": "S3-936097963",
+      "source1": {
+        "business_name": "Harbor Academy",
+        "business_address": "14-49 31 Drive, Astoria, NY",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "... Harbor Services",
+        "business_address": "31 Dr, Astoria, New York",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-98038687",
+      "target_entity_id": "S3-484268539",
+      "source1": {
+        "business_name": "Womens Health Group PLLC",
+        "business_address": "1648 Silo Point Drive, Wake Forest, NC",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "W0mens Health Gróup PLLC",
+        "business_address": "1648 Silo Point Dr, Wake Forest, North Carolina",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-174017112",
+      "target_entity_id": "S3-993022479",
+      "source1": {
+        "business_name": "Mumbai Exports Private Limited",
+        "business_address": "46, Grd Floor, Plot-290, Pratik Aracade, Tata Road No.2 Nr.Opera House, Girgaon, Mumbai, Mumbai City, Maharashtra",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Limited Mumbai Private Service",
+        "business_address": "772 46, Mumbai, Mumbai City, MH",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-208540498",
+      "target_entity_id": "S3-69487118",
+      "source1": {
+        "business_name": "Unified Eagle Inc",
+        "business_address": "2253 Branch Drive, Chesapeake City, VA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Unified Emale Emale Inc",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-820142466",
+      "target_entity_id": "S3-229510603",
+      "source1": {
+        "business_name": "Ss Investments",
+        "business_address": "Flat B 4, S S Sellish Appartments, 10Th Street, Sankar Nagar, Pammal, Chennai, Tamil Nadu, No 61",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "எஸ்எஸ் இன்வெஸ்ட்மெண்ட்ஸ்",
+        "business_address": "H.no 61, Chennai, Pammal, TN",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-678452565",
+      "target_entity_id": "S3-766826897",
+      "source1": {
+        "business_name": "Wild Track",
+        "business_address": "Door No 1108, First Floor, Hilite Business Park, Olavanna, Kozhikode, Kozhikode, Kerala",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Wi1d Track",
+        "business_address": "No 1108, Calicut, Kozhikode, Keralam",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-319948960",
+      "target_entity_id": "S3-873980191",
+      "source1": {
+        "business_name": "Dz Brothers Private Limited",
+        "business_address": "5-3-38/2, Plot No. 9, Jeera, R.P. Road, Secunderabad, Hyderabad, Telangana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "M/s Dz Brothers Private",
+        "business_address": "5-3-38/2, Hyderabad, TG",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-764940023",
+      "target_entity_id": "S3-244336",
+      "source1": {
+        "business_name": "Prime Consumer Associates LLC",
+        "business_address": "733 3 Street, Salem, OH",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "LLC Prime Consaumre Associates",
+        "business_address": "0733 3 St, Salem, Ohio",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-610822526",
+      "target_entity_id": "S3-507258856",
+      "source1": {
+        "business_name": "Seven Constructions Pvt Ltd",
+        "business_address": "2/227, Palay Road Maniyachi, Tuticorin, Thoothukudi, Tamil Nadu",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "செவன் கன்ஸ்ட்ரக்ஷன்ஸ் பிரைவேட் லிமிடெட்",
+        "business_address": "2/227., Tuticorin, Thoothukudi, TN",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-340713647",
+      "target_entity_id": "S3-629412571",
+      "source1": {
+        "business_name": "OE Constructions",
+        "business_address": "Jaipur, Rajasthan, Plot No. 11, Tejaji Scheme, No.3, Civil Lines, Sodala",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "OE C0nstructions",
+        "business_address": "H.no 11, Tejaji Scheme, No.3, Civil Lines, Sodala, Jaipur, Mansarovar, राजस्थान",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-429994118",
+      "target_entity_id": "S3-749078468",
+      "source1": {
+        "business_name": "Cure Yoga",
+        "business_address": "112 Myers Farm Court, Cary, NC",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Cure Yoga LLC",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": true,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-956219074",
+      "target_entity_id": "S3-741859030",
+      "source1": {
+        "business_name": "Liberty Trust",
+        "business_address": "112 Patriot Parkway, Unit B, Revere, MA",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Liberty Trúst",
+        "business_address": "112 Patroit Pkwy, Unit B, Revere, Massachusetts",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-181277500",
+      "target_entity_id": "S3-406052674",
+      "source1": {
+        "business_name": "A Classic Titan L.L.C.",
+        "business_address": "NC, Eden, 104 Malibu Street",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Services A Titan L.L.C.",
+        "business_address": "North Carolina, Eden, 0104 Malibu Street",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-56552830",
+      "target_entity_id": "S3-351844853",
+      "source1": {
+        "business_name": "Redwood Inc",
+        "business_address": "555 290, La Verkin City, UT",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Redwood  Incorporated",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": true,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-227015748",
+      "target_entity_id": "S3-682308644",
+      "source1": {
+        "business_name": "MR Venture Pvt Ltd",
+        "business_address": "House No .-240, Phase - 2, Jansath Road, Surendra Nagar, Muzaffarnagar, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "mrventure.com",
+        "business_address": "उत्तर प्रदेश, Muzaffarnagar, House No .-240, Muzaffarnagar",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-814044165",
+      "target_entity_id": "S3-593167324",
+      "source1": {
+        "business_name": "Eastern Enterprises Private Limited",
+        "business_address": "No.41, 1St Floor, 2Nd Shop, Keel Sathiram Road, Thennur, Trichy, Tiruchirappalli, Tamil Nadu",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "@Easternenterprises",
+        "business_address": "No.41, Tiruchirappalli, Trichy, தமிழ்நாடு",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-877660955",
+      "target_entity_id": "S3-838067624",
+      "source1": {
+        "business_name": "Innovative Logistics",
+        "business_address": "South Delhi, New Delhi, Vasant Kunj, Pocket - D2 Flat No. 2432, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "logisticsinnovative.com",
+        "business_address": "No. 330 Pocket - D2 Flat No. 2432, Vasant Kunj, New Delhi, South Delhi, दिल्ली",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-997127392",
+      "target_entity_id": "S3-497388604",
+      "source1": {
+        "business_name": "Beacon, L.L.C.",
+        "business_address": "121 Vintage Run Drive, La Vernia, TX",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Beacon, L.L.C. Center",
+        "business_address": "",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": true
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-549649058",
+      "target_entity_id": "S3-840394632",
+      "source1": {
+        "business_name": "Ace Biomedical Works LLC",
+        "business_address": "4000 Wisconsin Avenue, Unit 134, Washington, DC",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "(Service) Ace Bi0medical LLC",
+        "business_address": "4000 Wisconsin Ave, Unit 134, Washington CDP, District of Columbia",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-554287054",
+      "target_entity_id": "S3-753253056",
+      "source1": {
+        "business_name": "XP Technologies Private Limited",
+        "business_address": "E-703, Bptp Park Prime, Sector-66, Badshahpur, Gurgaon, Haryana",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Pdravte XP Technologies Limited",
+        "business_address": "E-703, Gurgaon, HR",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-531918617",
+      "target_entity_id": "S3-996071362",
+      "source1": {
+        "business_name": "Synergy Centre Private Limited",
+        "business_address": "75, Swarn Park Udyog Vihar, Mundka, Delhi",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Synergycentre.Com",
+        "business_address": "Mundka, Delhi, Dor No 781 75, दिल्ली",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-477815873",
+      "target_entity_id": "S3-202505887",
+      "source1": {
+        "business_name": "Dental Care P.C.",
+        "business_address": "Unit 3, 1733 Campus Plaza Court, KY, Bowling Green",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Dental Cr P.C.",
+        "business_address": "1733 Cmapus Plaza Court, Bowling Green, Kentucky",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-965253734",
+      "target_entity_id": "S3-492220720",
+      "source1": {
+        "business_name": "Raj International Limited",
+        "business_address": "No. 279, 5Th Cross, Bahubali Nagar Jalahalli, Mes Ring Road, Bangalore, Karnataka",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Shri Raj Itneranhihnoal  Limited",
+        "business_address": "No. 279, Bangalore, KA",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-828712220",
+      "target_entity_id": "S3-500352150",
+      "source1": {
+        "business_name": "Black Consultants Private Limited",
+        "business_address": "B1-4 Sector -I, Aliganj, Lucknow, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Black Conssbltbnnts Private Limited",
+        "business_address": "B1-4 Sector -I, Aliganj, Lucknow, UP",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-303505371",
+      "target_entity_id": "S3-108206682",
+      "source1": {
+        "business_name": "Laxmi Products Pvt Ltd",
+        "business_address": "M-166, Madhav Nagar, Gird, Gwalior, Madhya Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Sri Laxmi Laxmi Pvt Ltd Center",
+        "business_address": "M-166, Gwalior, मध्य प्रदेश",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-875638488",
+      "target_entity_id": "S3-755019352",
+      "source1": {
+        "business_name": "Harbor Defense LLC",
+        "business_address": "5121 Estrella Lane, Fort Worth, TX",
+        "country": "US"
+      },
+      "target": {
+        "business_name": "Harbor Défense LLC",
+        "business_address": "5121- Estrella Lane, Ftworth, Texas",
+        "country": "US"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-556871771",
+      "target_entity_id": "S3-828144784",
+      "source1": {
+        "business_name": "Rvs Vani of Kolkata Private Limited",
+        "business_address": "74, Bangur Avenue, Block-A, Kolkata, Howrah, West Bengal",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "@rvsvani",
+        "business_address": "74, Kolkata, WB",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    },
+    {
+      "target_source": "S3",
+      "source1_entity_id": "S1-395686570",
+      "target_entity_id": "S3-248597156",
+      "source1": {
+        "business_name": "Great Investment Limited",
+        "business_address": "62-A, Nehru Nagar, Agra, Uttar Pradesh",
+        "country": "India"
+      },
+      "target": {
+        "business_name": "Great  lnehstemnnt Limited",
+        "business_address": "62-A, Nehru Nagar, Agra, उत्तर प्रदेश",
+        "country": "India"
+      },
+      "diagnostics": {
+        "same_country": true,
+        "exact_normalized_name": false,
+        "canonical_name": false,
+        "exact_normalized_address": false,
+        "canonical_address": false,
+        "source1_address_blank": false,
+        "target_address_blank": false
+      }
+    }
+  ]
+}\n

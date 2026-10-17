@@ -1,0 +1,86 @@
+{
+  "validation_source1_rows": 441363,
+  "training_queries_sampled": 20000,
+  "fit_queries": 15987,
+  "calibration_queries": 4013,
+  "training_pairs": {
+    "rows": 499418,
+    "positive": 50827,
+    "negative": 448591
+  },
+  "feature_names": [
+    "exact_name",
+    "exact_address",
+    "core_name",
+    "unordered_name",
+    "canonical_address",
+    "rare_name_token",
+    "rare_address_token",
+    "expanded_name_token",
+    "expanded_address_token",
+    "char_trigram",
+    "name_token_pair",
+    "address_token_pair",
+    "target_is_s3",
+    "log1p_candidate_count_div10",
+    "name_token_coverage",
+    "address_token_coverage"
+  ],
+  "threshold_selection": "macro F0.5 on deterministic training-only calibration queries",
+  "probability_threshold": 0.1887376755475998,
+  "calibration_macro_f05": 0.4688999063741088,
+  "validation": {
+    "candidate_pairs": 75649390,
+    "average_candidates_per_source1": 171.39948296526896,
+    "candidate_recall": 0.9213548458045968,
+    "candidate_positive_entity_coverage": 0.9887596769007041,
+    "candidate_reduction_ratio": 0.9999833918754083,
+    "macro_f05": 0.46791342263792146,
+    "no_match_macro_f05": 0.055847454362962005,
+    "micro_precision": 0.21415363735782073,
+    "micro_recall": 0.48133303483993944,
+    "micro_f05": 0.24089718499927795,
+    "by_target_source": {
+      "S2": {
+        "macro_f05": 0.4813055439889804,
+        "candidate_recall": 0.9319594692491954,
+        "candidate_positive_entity_coverage": 0.9602343662441715,
+        "micro_precision": 0.17666495804136106,
+        "micro_recall": 0.6473031180729613
+      },
+      "S3": {
+        "macro_f05": 0.42148980630154587,
+        "candidate_recall": 0.911431109353993,
+        "candidate_positive_entity_coverage": 0.9551090771347732,
+        "micro_precision": 0.3535465271269681,
+        "micro_recall": 0.3260193291441272
+      }
+    }
+  },
+  "model": {
+    "type": "L2-regularized logistic regression",
+    "optimizer": "batch gradient descent",
+    "iterations": 80,
+    "negative_sampling": "up to 30 deterministic hard negatives per fit query; all generated positives retained",
+    "weight_intercept_and_features": [
+      -1.8197747468948364,
+      0.22485223412513733,
+      0.17006142437458038,
+      0.34651604294776917,
+      0.38169875741004944,
+      0.23203372955322266,
+      0.03637148439884186,
+      0.09494724869728088,
+      0.035022202879190445,
+      0.03253653645515442,
+      -0.00013070199929643422,
+      0.2326204925775528,
+      0.5214137434959412,
+      -0.3784509599208832,
+      -0.7540358304977417,
+      0.03950288146734238,
+      0.0903552770614624
+    ],
+    "similarity_features": "query-token coverage in target's top-5 name and top-4 address token postings; postings above MAX_POSTING are excluded"
+  }
+}

@@ -1,0 +1,24 @@
+# Challenge data and prepared copies (>100MB files exceeding GitHub limits)
+**/dataset/train/*.tsv
+**/dataset/test/*.tsv
+**/dataset/cleaned/
+
+# Generated outputs and large submission archive (>100MB files)
+**/output/*.tsv
+**/submission_package/output/*.tsv
+*.zip
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+.venv/
+env/
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
